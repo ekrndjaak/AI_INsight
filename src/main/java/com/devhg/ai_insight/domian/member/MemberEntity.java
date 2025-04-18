@@ -9,7 +9,6 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import java.util.Date;
 
-
 @Entity
 @Setter
 @Getter
@@ -30,6 +29,9 @@ public class MemberEntity {
 
     @CreationTimestamp
     private Date joinDate;
+
+    @Version
+    private Long version;
 
     public static MemberEntity toMemberEntity(MemberDTO memberDTO) {
         MemberEntity memberEntity = new MemberEntity();

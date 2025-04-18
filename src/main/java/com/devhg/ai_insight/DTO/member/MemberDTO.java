@@ -13,7 +13,7 @@ import java.util.Date;
 @ToString
 @NoArgsConstructor
 public class MemberDTO {
-    private long id;
+    private Long id;
     private String memberPassword;
     private String memberName;
     private String memberEmail;
