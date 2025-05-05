@@ -53,16 +53,4 @@ GitHub Actions
 
 프로젝트의 주요 디렉토리 구조는 다음과 같습니다:
 
-AI_INsight/
-├── Dockerfile # Docker 이미지 빌드를 위한 설정 파일
-├── docker-compose.yml # Docker Compose 설정 파일
-├── gradle/ # Gradle 빌드 설정 파일
-├── src/ # 프로젝트 소스 코드
-│ ├── main/
-│ │ ├── java/ # Java 소스 코드
-│ │ ├── resources/ # 설정 파일 (application.properties 등)
-│ │ └── ...
-│ └── test/ # 테스트 코드
-├── models/ # AI 모델 파일
-├── README.md # 프로젝트 설명서
-└── ...
+<pre> ``` AI_Insight/ ├── Dockerfile # Docker 이미지 빌드를 위한 설정 파일 ├── docker-compose.yml # Docker Compose 설정 파일 ├── gradle/ # Gradle 빌드 설정 파일 ├── src/ # 프로젝트 소스 코드 │ ├── main/ │ │ ├── java/ # Java 소스 코드 │ │ └── resources/ # 설정 파일 (application.properties 등) │ └── test/ # 테스트 코드 ├── models/ # AI 모델 파일 ├── README.md # 프로젝트 설명서 ``` </pre>
